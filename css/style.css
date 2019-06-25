@@ -152,7 +152,8 @@ footer {
 
 button {
 	display: none;
-}
+} 
+
 /* Ajustes Mobile con Media Queries */
 @media screen and (max-width: 576px){ /* <-- Smartphone */
 	/* Inicio Media Query */
@@ -179,7 +180,6 @@ button {
 		background-color: transparent;
 		cursor: pointer;
 	}
-
 	button:focus + nav {
 		display: block;
 	}
@@ -195,9 +195,12 @@ button {
 	#tabla-posiciones table {
 		width: 90%;
 	}
-	/* Fin media Query */
+
+	/* Fin Media Query */
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px){ /* <-- Tablet */
-	
-	
+
+
+
+}
